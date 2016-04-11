@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.borderless{
+	border: 0;
+}
+.hide{
+	display: none;
+}
+header{
+	position: relative;
+	background: #FCCA5A;
+	color: white;
+	padding: 10px 20px;
+}
+li{
+	position: relative;
+	list-style: none;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+p{
+	display: inline-block;
+	width: 90%;
+}
+button{
+	position: absolute;
+	right: 20px;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	background: transparent;
+	border: 0;
+}
+h1{
+	display: inline;
+	font-size: 24px;
+}
+.add{
+	color: white;
+}
+.remove{
+	color: #aaa;
+}
